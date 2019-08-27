@@ -1,25 +1,22 @@
 body {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
 }
 
 h1 {
-    margin: auto 0;
-    margin-left: 20%;
-    margin-bottom: 3%;
-    margin-top: 2%;
+    font-family: "Indie Flower";
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
 }
 
 #avail {
-    float: left;
-    margin-right: 6%;
-    margin-left: 10%;
-
+    text-align: center;
 
 }
 
 #devoured {
-    float: left;
+    text-align: center;
 
 }
 
@@ -31,5 +28,5 @@ li {
 
 #add {
     clear: both;
-    margin-left: 25%;
+    text-align: center;
 }
