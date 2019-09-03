@@ -23,7 +23,7 @@ app.engine("handlebars", exphbs({
 }));
 app.set("view engine", "handlebars");
 
-var routes = require("../EatDaBurger/controllers/burgers_controller");
+var routes = require("./controllers/burgers_controller");
 
 app.use("/", routes);
 
